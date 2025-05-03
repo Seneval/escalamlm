@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -15,10 +16,12 @@ export default function Home() {
           Solicita tu Diagnóstico Gratuito
         </Link>
         <div className="mt-12 flex justify-center">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
             alt="Equipo de trabajo"
-            className="rounded-xl shadow-xl w-full max-w-2xl"
+            width={800}
+            height={500}
+            className="rounded-xl shadow-xl w-full max-w-2xl object-cover"
           />
         </div>
       </section>
@@ -30,10 +33,12 @@ export default function Home() {
           En EscalaMLM somos expertos en consultoría para negocios que desean evolucionar hacia un modelo de marketing de redes o sistema de afiliados. Nuestro equipo combina experiencia en ventas, liderazgo, compensaciones y marketing digital para ofrecerte un acompañamiento integral.
         </p>
         <div className="flex justify-center">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1515168833906-d2a3b82b3029?auto=format&fit=crop&w=600&q=80"
             alt="Consultores EscalaMLM"
-            className="rounded-lg shadow-md w-full max-w-md"
+            width={600}
+            height={400}
+            className="rounded-lg shadow-md w-full max-w-md object-cover"
           />
         </div>
       </section>
@@ -43,27 +48,27 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-10 text-blue-700">¿Qué Hacemos?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Plan de compensación" className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Plan de compensación" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Diseño de Plan de Compensación</h3>
             <p>Desarrollamos hasta 8 formas de ganar: bonos por nivel, inscripción, liderazgo y más, adaptados a tu industria.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Materiales" className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Materiales" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Desarrollo de Materiales</h3>
             <p>Materiales de capacitación, presentaciones y recursos digitales para tus asociados y líderes.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Capacitación" className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Capacitación" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Capacitación y Liderazgo</h3>
             <p>Te ayudamos a reclutar, capacitar y convertir a tus primeros asociados en líderes de alto impacto.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Escalabilidad" className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Planificación de Escalabilidad</h3>
             <p>Diseñamos un sistema que crece contigo, asegurando sostenibilidad y éxito a largo plazo.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Marketing" className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Soporte de Marketing</h3>
             <p>Estrategias de marketing digital y tradicional para atraer clientes y asociados a tu red.</p>
           </div>
@@ -99,14 +104,14 @@ export default function Home() {
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="italic mb-4">Gracias a EscalaMLM, logramos escalar nuestro negocio de suplementos y ahora contamos con una red de más de 500 asociados.</p>
             <div className="flex items-center gap-3">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonio 1" className="w-12 h-12 rounded-full" />
+              <Image src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonio 1" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
               <span className="font-semibold">Carlos M.</span>
             </div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="italic mb-4">El acompañamiento y los materiales que nos brindaron fueron clave para el éxito de nuestro sistema de afiliados.</p>
             <div className="flex items-center gap-3">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonio 2" className="w-12 h-12 rounded-full" />
+              <Image src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonio 2" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
               <span className="font-semibold">María G.</span>
             </div>
           </div>
