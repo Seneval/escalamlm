@@ -1,12 +1,46 @@
-import React from 'react';
+"use client"; // Add this directive for client-side functionality
+import React, { FormEvent } from 'react'; // Import FormEvent
 
 const ContactPage = () => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => { // Explicitly type event
+    event.preventDefault();
+    const form = event.target as HTMLFormElement; // Cast event.target to HTMLFormElement
+    const formData = new FormData(form);
+    const urlSearchParams = new URLSearchParams(); // Create a new URLSearchParams object
+
+    // Iterate over formData and append to urlSearchParams
+    formData.forEach((value, key) => {
+      urlSearchParams.append(key, value as string); // Append each key-value pair
+    });
+
+    try {
+      const response = await fetch("/__forms.html", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: urlSearchParams.toString(), // Use the converted URLSearchParams
+      });
+
+      if (response.ok) {
+        console.log("Form submitted successfully!");
+        // Optionally, redirect to a thank you page or show a success message
+        alert("Diagnosis request sent successfully!");
+        form.reset(); // Use the casted form to call reset()
+      } else {
+        console.error("Form submission failed:", response.statusText);
+        alert("Form submission failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error during form submission:", error);
+      alert("An error occurred during form submission. Please try again.");
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Free Diagnosis</h1>
       <p className="mb-8">Contact us for a free diagnosis of your business.</p>
 
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" onSubmit={handleSubmit}> {/* Use onSubmit handler */}
         <input type="hidden" name="form-name" value="contact" />
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
