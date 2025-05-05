@@ -15,15 +15,6 @@ export default function Home() {
         <Link href="/contact" className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition">
           Solicita tu Diagnóstico Gratuito
         </Link>
-        <div className="mt-12 flex justify-center">
-          <Image
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
-            alt="Equipo de trabajo"
-            width={800}
-            height={500}
-            className="rounded-xl shadow-xl w-full max-w-2xl object-cover"
-          />
-        </div>
       </section>
 
       {/* ABOUT SECTION */}
@@ -32,15 +23,6 @@ export default function Home() {
         <p className="text-lg text-gray-700 mb-6">
           En EscalaMLM somos expertos en consultoría para negocios que desean evolucionar hacia un modelo de marketing de redes o sistema de afiliados. Nuestro equipo combina experiencia en ventas, liderazgo, compensaciones y marketing digital para ofrecerte un acompañamiento integral.
         </p>
-        <div className="flex justify-center">
-          <Image
-            src="https://images.unsplash.com/photo-1515168833906-d2a3b82b3029?auto=format&fit=crop&w=600&q=80"
-            alt="Consultores EscalaMLM"
-            width={600}
-            height={400}
-            className="rounded-lg shadow-md w-full max-w-md object-cover"
-          />
-        </div>
       </section>
 
       {/* SERVICES SECTION */}
@@ -63,12 +45,12 @@ export default function Home() {
             <p>Te ayudamos a reclutar, capacitar y convertir a tus primeros asociados en líderes de alto impacto.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <Image src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://media.istockphoto.com/id/1311598658/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=rNvltmg6Vtc6FRc7h2HE9kEgEHgKqkuFfoFPR3xJn2E=" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Planificación de Escalabilidad</h3>
             <p>Diseñamos un sistema que crece contigo, asegurando sostenibilidad y éxito a largo plazo.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <Image src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://media.istockphoto.com/id/1365430752/photo/close-up-of-a-businesswoman-using-a-headset-against-a-blue-background.jpg?s=612x612&w=0&k=20&c=D71RN0d_pYQIWmoT5nJMVCgxs56Nx5vAkCH1TvI31FY=" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Soporte de Marketing</h3>
             <p>Estrategias de marketing digital y tradicional para atraer clientes y asociados a tu red.</p>
           </div>
