@@ -70,17 +70,17 @@ export default function Home() {
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">1</span>
             <h4 className="font-semibold mb-2">Diagnóstico Gratuito</h4>
-            <p>Analizamos la viabilidad de transformar tu negocio a un sistema de afiliados.</p>
+            <p className="text-gray-800">Analizamos la viabilidad de transformar tu negocio a un sistema de afiliados.</p>
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">2</span>
             <h4 className="font-semibold mb-2">Plan Personalizado</h4>
-            <p>Desarrollamos un plan de compensación y materiales a la medida.</p>
+            <p className="text-gray-800">Desarrollamos un plan de compensación y materiales a la medida.</p>
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">3</span>
             <h4 className="font-semibold mb-2">Implementación y Soporte</h4>
-            <p>Te acompañamos en la implementación y crecimiento de tu red.</p>
+            <p className="text-gray-800">Te acompañamos en la implementación y crecimiento de tu red.</p>
           </li>
         </ol>
       </section>
@@ -91,13 +91,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-2 text-blue-800">Zapaterías Pache</h3>
-            <p className="mb-2">Incremento de ventas en un 500% en tan solo 3 meses después de implementar nuestro sistema de afiliados.</p>
-            <p className="text-sm text-gray-500">- Director Comercial</p>
+            <p className="mb-2 text-gray-800">Incremento de ventas en un 500% en tan solo 3 meses después de implementar nuestro sistema de afiliados.</p>
+            <p className="text-sm text-gray-600">- Director Comercial</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-2 text-blue-800">Classic Cosmetics</h3>
-            <p className="mb-2">Más de 10,000 consultores afiliados en su red después de rediseñar su plan de compensación.</p>
-            <p className="text-sm text-gray-500">- Directora de Marketing</p>
+            <p className="mb-2 text-gray-800">Más de 10,000 consultores afiliados en su red después de rediseñar su plan de compensación.</p>
+            <p className="text-sm text-gray-600">- Directora de Marketing</p>
           </div>
         </div>
       </section>
@@ -106,7 +106,7 @@ export default function Home() {
       <section className="w-full max-w-4xl py-16 px-4 mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6 text-blue-700">Nuestra Trayectoria</h2>
         <div className="bg-white p-8 rounded-lg shadow">
-          <p className="text-lg">
+          <p className="text-lg text-gray-800">
             Nuestra fundadora tiene más de 20 años de experiencia en MLM, trabajando tanto dentro del equipo directivo como afiliada líder, llegando hasta los rangos más altos. Se capacitó personalmente con Mary Kay Ash, fundadora de la empresa Mary Kay.
           </p>
         </div>
@@ -118,15 +118,15 @@ export default function Home() {
         <div className="space-y-6">
           <div className="bg-white p-4 rounded-lg shadow">
             <h4 className="font-semibold mb-2">¿Qué tipo de negocios pueden beneficiarse?</h4>
-            <p>Empresas de venta directa de cualquier industria: zapatos, cosméticos, suplementos, servicios, etc.</p>
+            <p className="text-gray-800">Empresas de venta directa de cualquier industria: zapatos, cosméticos, suplementos, servicios, etc.</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
             <h4 className="font-semibold mb-2">¿Cuánto tiempo toma la transformación?</h4>
-            <p>El proceso depende del tamaño y necesidades de tu empresa, pero normalmente entre 4 y 12 semanas.</p>
+            <p className="text-gray-800">El proceso depende del tamaño y necesidades de tu empresa, pero normalmente entre 4 y 12 semanas.</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
             <h4 className="font-semibold mb-2">¿Puedo solicitar solo el diagnóstico?</h4>
-            <p>Sí, el diagnóstico es gratuito y sin compromiso.</p>
+            <p className="text-gray-800">Sí, el diagnóstico es gratuito y sin compromiso.</p>
           </div>
         </div>
       </section>
