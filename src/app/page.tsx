@@ -74,7 +74,7 @@ export default function Home() {
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">2</span>
-            <h4 className="font-semibold mb-2">Diseño Personalizado</h4>
+            <h4 className="font-semibold mb-2">Plan Personalizado</h4>
             <p>Desarrollamos un plan de compensación y materiales a la medida.</p>
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
@@ -91,19 +91,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-2 text-blue-800">Zapaterías Pache</h3>
-            <p className="mb-4">Incremento de ventas en un 500% en tan solo 3 meses después de implementar nuestro sistema de afiliados.</p>
-            <div className="flex items-center gap-3">
-              <Image src="https://randomuser.me/api/portraits/men/32.jpg" alt="Zapaterías Pache" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
-              <span className="font-semibold">Director Comercial</span>
-            </div>
+            <p className="mb-2">Incremento de ventas en un 500% en tan solo 3 meses después de implementar nuestro sistema de afiliados.</p>
+            <p className="text-sm text-gray-500">- Director Comercial</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-lg mb-2 text-blue-800">Classic Cosmetics</h3>
-            <p className="mb-4">Más de 10,000 consultores afiliados en su red después de rediseñar su plan de compensación.</p>
-            <div className="flex items-center gap-3">
-              <Image src="https://randomuser.me/api/portraits/women/44.jpg" alt="Classic Cosmetics" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
-              <span className="font-semibold">Directora de Marketing</span>
-            </div>
+            <p className="mb-2">Más de 10,000 consultores afiliados en su red después de rediseñar su plan de compensación.</p>
+            <p className="text-sm text-gray-500">- Directora de Marketing</p>
           </div>
         </div>
       </section>
