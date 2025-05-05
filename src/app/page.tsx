@@ -10,9 +10,9 @@ export default function Home() {
           className="text-5xl sm:text-6xl lg:text-8xl font-extrabold mb-6 drop-shadow-lg transition-transform duration-500 hover:scale-105 bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent animate-fade-in"
           style={{ lineHeight: 1.1 }}
         >
-          Transforma tu Negocio<br className="hidden md:inline" />con Marketing de Redes
+          Transforma tu Negocio<br className="hidden md:inline block md:hidden" /> con Marketing de Redes
         </h1>
-        <p className="text-2xl sm:text-3xl mb-10 max-w-3xl mx-auto font-medium animate-fade-in-slow">
+        <p className="text-xl sm:text-2xl md:text-3xl mb-10 max-w-3xl mx-auto font-medium text-white/95 leading-relaxed animate-fade-in-slow">
           Te ayudamos a convertir tu empresa de venta directa en un sistema de afiliados moderno, escalable y rentable.
         </p>
         <Link
