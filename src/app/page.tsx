@@ -5,14 +5,20 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center bg-gray-50">
       {/* HERO SECTION */}
-      <section className="w-full bg-gradient-to-br from-blue-600 to-blue-400 text-white py-20 px-4 text-center">
-        <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">
-          Transforma tu Negocio con Marketing de Redes
+      <section className="w-full bg-gradient-to-br from-blue-600 to-blue-400 text-white py-24 px-4 text-center">
+        <h1
+          className="text-5xl sm:text-6xl lg:text-8xl font-extrabold mb-6 drop-shadow-lg transition-transform duration-500 hover:scale-105 bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent animate-fade-in"
+          style={{ lineHeight: 1.1 }}
+        >
+          Transforma tu Negocio<br className="hidden md:inline" />con Marketing de Redes
         </h1>
-        <p className="text-2xl mb-8 max-w-2xl mx-auto">
-          EscalaMLM te ayuda a convertir tu empresa de venta directa en un sistema de afiliados moderno, escalable y rentable.
+        <p className="text-2xl sm:text-3xl mb-10 max-w-3xl mx-auto font-medium animate-fade-in-slow">
+          Te ayudamos a convertir tu empresa de venta directa en un sistema de afiliados moderno, escalable y rentable.
         </p>
-        <Link href="/contact" className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition">
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-bold py-4 px-10 rounded-full shadow-lg hover:bg-blue-100 transition text-xl animate-fade-in-slow"
+        >
           Solicita tu Diagnóstico Gratuito
         </Link>
       </section>
@@ -45,12 +51,12 @@ export default function Home() {
             <p>Te ayudamos a reclutar, capacitar y convertir a tus primeros asociados en líderes de alto impacto.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <Image src="https://media.istockphoto.com/id/1311598658/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=rNvltmg6Vtc6FRc7h2HE9kEgEHgKqkuFfoFPR3xJn2E=" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=400&q=80" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Planificación de Escalabilidad</h3>
             <p>Diseñamos un sistema que crece contigo, asegurando sostenibilidad y éxito a largo plazo.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <Image src="https://media.istockphoto.com/id/1365430752/photo/close-up-of-a-businesswoman-using-a-headset-against-a-blue-background.jpg?s=612x612&w=0&k=20&c=D71RN0d_pYQIWmoT5nJMVCgxs56Nx5vAkCH1TvI31FY=" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
+            <Image src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Soporte de Marketing</h3>
             <p>Estrategias de marketing digital y tradicional para atraer clientes y asociados a tu red.</p>
           </div>
