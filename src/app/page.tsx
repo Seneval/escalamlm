@@ -69,17 +69,17 @@ export default function Home() {
         <ol className="flex flex-col md:flex-row md:justify-between gap-8">
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">1</span>
-            <h4 className="font-semibold mb-2">Diagnóstico Gratuito</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">Diagnóstico Gratuito</h4>
             <p className="text-gray-800">Analizamos la viabilidad de transformar tu negocio a un sistema de afiliados.</p>
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">2</span>
-            <h4 className="font-semibold mb-2">Plan Personalizado</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">Plan Personalizado</h4>
             <p className="text-gray-800">Desarrollamos un plan de compensación y materiales a la medida.</p>
           </li>
           <li className="flex-1 bg-white p-6 rounded-lg shadow text-center">
             <span className="text-4xl font-bold text-blue-500 mb-2 block">3</span>
-            <h4 className="font-semibold mb-2">Implementación y Soporte</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">Implementación y Soporte</h4>
             <p className="text-gray-800">Te acompañamos en la implementación y crecimiento de tu red.</p>
           </li>
         </ol>
@@ -117,15 +117,15 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-10 text-blue-700">Preguntas Frecuentes</h2>
         <div className="space-y-6">
           <div className="bg-white p-4 rounded-lg shadow">
-            <h4 className="font-semibold mb-2">¿Qué tipo de negocios pueden beneficiarse?</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">¿Qué tipo de negocios pueden beneficiarse?</h4>
             <p className="text-gray-800">Empresas de venta directa de cualquier industria: zapatos, cosméticos, suplementos, servicios, etc.</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
-            <h4 className="font-semibold mb-2">¿Cuánto tiempo toma la transformación?</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">¿Cuánto tiempo toma la transformación?</h4>
             <p className="text-gray-800">El proceso depende del tamaño y necesidades de tu empresa, pero normalmente entre 4 y 12 semanas.</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
-            <h4 className="font-semibold mb-2">¿Puedo solicitar solo el diagnóstico?</h4>
+            <h4 className="font-semibold mb-2 text-gray-800">¿Puedo solicitar solo el diagnóstico?</h4>
             <p className="text-gray-800">Sí, el diagnóstico es gratuito y sin compromiso.</p>
           </div>
         </div>
