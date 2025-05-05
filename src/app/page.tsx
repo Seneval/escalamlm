@@ -38,27 +38,27 @@ export default function Home() {
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
             <Image src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Plan de compensación" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Diseño de Plan de Compensación</h3>
-            <p>Desarrollamos hasta 8 formas de ganar: bonos por nivel, inscripción, liderazgo y más, adaptados a tu industria.</p>
+            <p className="text-gray-800">Desarrollamos hasta 8 formas de ganar: bonos por nivel, inscripción, liderazgo y más, adaptados a tu industria.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
             <Image src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Materiales" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Desarrollo de Materiales</h3>
-            <p>Materiales de capacitación, presentaciones y recursos digitales para tus asociados y líderes.</p>
+            <p className="text-gray-800">Materiales de capacitación, presentaciones y recursos digitales para tus asociados y líderes.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
             <Image src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Capacitación" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Capacitación y Liderazgo</h3>
-            <p>Te ayudamos a reclutar, capacitar y convertir a tus primeros asociados en líderes de alto impacto.</p>
+            <p className="text-gray-800">Te ayudamos a reclutar, capacitar y convertir a tus primeros asociados en líderes de alto impacto.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
             <Image src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=400&q=80" alt="Escalabilidad" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Planificación de Escalabilidad</h3>
-            <p>Diseñamos un sistema que crece contigo, asegurando sostenibilidad y éxito a largo plazo.</p>
+            <p className="text-gray-800">Diseñamos un sistema que crece contigo, asegurando sostenibilidad y éxito a largo plazo.</p>
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition">
             <Image src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Marketing" width={400} height={250} className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-blue-800">Soporte de Marketing</h3>
-            <p>Estrategias de marketing digital y tradicional para atraer clientes y asociados a tu red.</p>
+            <p className="text-gray-800">Estrategias de marketing digital y tradicional para atraer clientes y asociados a tu red.</p>
           </div>
         </div>
       </section>
