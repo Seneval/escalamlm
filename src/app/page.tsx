@@ -85,24 +85,36 @@ export default function Home() {
         </ol>
       </section>
 
-      {/* TESTIMONIALS SECTION */}
+      {/* SUCCESS CASES SECTION */}
       <section className="w-full bg-blue-50 py-16 px-4">
-        <h2 className="text-3xl font-bold text-center mb-10 text-blue-700">Testimonios</h2>
+        <h2 className="text-3xl font-bold text-center mb-10 text-blue-700">Casos de Éxito</h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow">
-            <p className="italic mb-4">Gracias a EscalaMLM, logramos escalar nuestro negocio de suplementos y ahora contamos con una red de más de 500 asociados.</p>
+            <h3 className="font-bold text-lg mb-2 text-blue-800">Zapaterías Pache</h3>
+            <p className="mb-4">Incremento de ventas en un 500% en tan solo 3 meses después de implementar nuestro sistema de afiliados.</p>
             <div className="flex items-center gap-3">
-              <Image src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonio 1" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
-              <span className="font-semibold">Carlos M.</span>
+              <Image src="https://randomuser.me/api/portraits/men/32.jpg" alt="Zapaterías Pache" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
+              <span className="font-semibold">Director Comercial</span>
             </div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
-            <p className="italic mb-4">El acompañamiento y los materiales que nos brindaron fueron clave para el éxito de nuestro sistema de afiliados.</p>
+            <h3 className="font-bold text-lg mb-2 text-blue-800">Classic Cosmetics</h3>
+            <p className="mb-4">Más de 10,000 consultores afiliados en su red después de rediseñar su plan de compensación.</p>
             <div className="flex items-center gap-3">
-              <Image src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonio 2" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
-              <span className="font-semibold">María G.</span>
+              <Image src="https://randomuser.me/api/portraits/women/44.jpg" alt="Classic Cosmetics" width={48} height={48} className="w-12 h-12 rounded-full object-cover" />
+              <span className="font-semibold">Directora de Marketing</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FOUNDER SECTION */}
+      <section className="w-full max-w-4xl py-16 px-4 mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-6 text-blue-700">Nuestra Trayectoria</h2>
+        <div className="bg-white p-8 rounded-lg shadow">
+          <p className="text-lg">
+            Nuestra fundadora tiene más de 20 años de experiencia en MLM, trabajando tanto dentro del equipo directivo como afiliada líder, llegando hasta los rangos más altos. Se capacitó personalmente con Mary Kay Ash, fundadora de la empresa Mary Kay.
+          </p>
         </div>
       </section>
 
